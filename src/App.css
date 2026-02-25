@@ -80,13 +80,14 @@ ul {
 .top-bar {
   display: flex;
   justify-content: center;
+  gap: 20px;  /* space between prev & next */
   padding-top: 10px;    /* optional spacing from top */
 }
 
 /* Center everything except Next button */
 .content {
   text-align: center;
-  margin: -15px auto;
+  margin: -30px auto;
   padding: 30px;
   max-width: 500px;
 
